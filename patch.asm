@@ -12,7 +12,6 @@
 		org $7FF10
 
 MUSIC_DETOUR
-        ;move.b  d0,($ffeff0) 				;debug feature
         cmpi.b  #$91,d0
         bls		PLAY_MD_PLUS
         cmpi.b  #$E1,d0
