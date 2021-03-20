@@ -1,4 +1,3 @@
-; Write to $f00a to play music
 ; OVERRIDES: --------------------------------------------------------------------------------------
 		org $29E
 		jsr BOOT_DETOUR
@@ -60,4 +59,3 @@ BOOT_DETOUR
  		jsr STOP_MD_PLUS
  		move #$2700,SR
  		jmp $308
- 		movem.l (A6),D0-D7/A0-A6
