@@ -1,0 +1,1 @@
+flips.exe -c -i "ROMS\in.md" "OUTPUT\out.md" "PATCH\patch.ips"
